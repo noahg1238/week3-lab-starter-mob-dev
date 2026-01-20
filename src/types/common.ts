@@ -1,5 +1,5 @@
 // delivery methods for courses and programs
-export type Delivery = "In-person" | "Online" | "Blended";
+export type DeliveryMethod = "In-person" | "Online" | "Blended";
 
 // SAIT's schools
 export type School =
