@@ -1,3 +1,4 @@
+import ResourcesSection from "@/src/ui/resources/ResourcesSection";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import CoursesSection from "../src/ui/courses/CoursesSection";
@@ -20,6 +21,7 @@ export default function Index() {
         <CoursesSection />
         <StaffSection />
         <StudentsSection />
+        <ResourcesSection />
 
         <Text style={styles.footer}>
           Tip: Tap any card to log a formatted summary
